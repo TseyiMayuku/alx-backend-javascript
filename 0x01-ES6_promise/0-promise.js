@@ -3,5 +3,5 @@ export default function getResponseFromAPI() {
     resolve();
     reject();
   });
-  return promise;
+ return promise;
 }
