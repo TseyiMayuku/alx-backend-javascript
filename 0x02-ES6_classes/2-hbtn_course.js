@@ -32,7 +32,6 @@ export default class HolbertonCourse {
     return this._length;
   }
 
-
   set length(zise) {
     if (typeof zise !== 'number') {
       throw new TypeError('Length must be a number');
